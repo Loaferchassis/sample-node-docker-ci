@@ -1,7 +1,7 @@
 #!/bin/bash
 docker push alexanderd/sample-node
 
-ssh deploy@35.187.30.81
+ssh deploy@35.195.183.2 
 docker pull alexanded/sample-node:latest
 docker stop web || true
 docker rm web || true
